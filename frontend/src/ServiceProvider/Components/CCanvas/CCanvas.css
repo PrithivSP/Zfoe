@@ -1,0 +1,61 @@
+.ccanvas {
+    margin: 2rem 3rem;
+    padding: 3em 3em;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* height: 60vh; */
+    background-color: #FFEC3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ccanvas .left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 1em;
+}
+
+.ccanvas .left img {
+    width: 150px;
+}
+
+.ccanvas .left .title {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 40px;
+}
+
+.ccanvas .left .btn-cont {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 2em;
+}
+
+.ccanvas .left .btn-cont button{
+    width: 130px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.ccanvas .left .btn-cont .shop {
+    background-color: black;
+    color: white;
+}
+
+.ccanvas .right {
+    width: 100%;
+}
+
+.ccanvas .right img {
+    width:100%;
+}

@@ -1,0 +1,79 @@
+.nav {
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 10;
+    background-color: white;
+    top: 0;
+}
+
+.nav .title a {
+    color: black;
+    text-decoration: none;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 700;
+}
+
+.nav ul {
+    border: 2px solid black;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    border-radius: 25px;
+}
+
+.nav ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav .end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.nav .end a {
+    color: black;
+}
+
+.nav .end div {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav .search {
+    background-color: #EDA6F4;
+    color: black;
+    font-weight: 700;
+    position: relative;
+}
+
+.nav .search span {
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    top: -10px;
+    right: -10px;
+}
+
+.nav  svg {
+    font-size: 20px;
+   font-weight: bolder;
+}
