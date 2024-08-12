@@ -1,0 +1,101 @@
+.cLogin {
+    background-image: url('../../../assets/blobScene.svg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.cLogin-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.cLogin-cont .left {
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 1.5em;
+}
+
+.cLogin-cont .left div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 0.3em;
+}
+
+.cLogin-cont .left div input {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.cLogin-cont .left div input:hover {
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+}
+
+.cLogin-cont .left div input:focus {
+    outline: 0;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+}
+
+.cLogin-cont span {
+    text-align: end;
+    border-bottom: 2px dashed black;
+}
+
+.cLogin-cont .left button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #eda6f4;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  cursor: pointer;
+}
+
+.cLogin-cont .right {
+    padding: 5em;
+}
+
+.cLogin-cont .right img {
+    width: 300px;
+}
+
+@media (max-width: 1080px) {
+    .cLogin-cont {
+        padding: 1em 1em;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .cLogin-cont .left {
+        padding: 0;
+    }
+
+    .cLogin-cont .right {
+        padding: 2em;
+    }
+}

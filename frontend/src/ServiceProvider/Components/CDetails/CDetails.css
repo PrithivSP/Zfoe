@@ -1,0 +1,66 @@
+.cdetails {
+    background-image: url("https://img.freepik.com/free-vector/abstract-bright-yellow-grunge-background_1055-8116.jpg?w=996&t=st=1723397316~exp=1723397916~hmac=e870fd1a61f782f5f0e3f40de9590a0bdc9d4a3bb91ea7f608dbebbd5e376faf");
+    padding: 2em;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cdetails-cont {
+    background-color: white;
+    padding: 2em;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3em;
+}
+
+.cdetails-cont div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em ;
+    width: 100%;
+}
+
+.cdetails-cont div input {
+    border-radius: 25px;
+    outline: 0;
+    padding-left: 20px;
+    width: 250px;
+    height: 30px;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 0px 0px #EDA6F4;
+    -moz-box-shadow: 5px 5px 0px 0px #EDA6F4;
+    box-shadow: 5px 5px 0px 0px #EDA6F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cdetails-cont button {
+    width: 140px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+    box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+    cursor: pointer;
+}
+
+.cdetails-cont select{
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    border: 2px solid black;
+    padding-left: 10px;
+    border-radius: 20px;
+}

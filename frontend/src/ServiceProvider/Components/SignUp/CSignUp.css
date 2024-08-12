@@ -1,0 +1,96 @@
+.csignup {
+    background-image: url('../../../assets/blobScene.svg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.csignup-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 5em; */
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.csignup-cont .left {
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 1.5em;
+}
+
+.csignup-cont .left div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 0.3em;
+}
+
+.csignup-cont .left div input {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.csignup-cont .left div input:hover {
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+}
+
+.csignup-cont .left div input:focus {
+    outline: 0;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+}
+
+.csignup-cont .left button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #eda6f4;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  cursor: pointer;
+}
+
+.csignup-cont .right {
+    
+    padding: 5em;
+}
+
+.csignup-cont .right img {
+    width: 300px;
+}
+
+@media (max-width: 1080px) {
+    .csignup-cont {
+        padding: 1em 1em;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .csignup-cont .left {
+        padding: 0;
+    }
+
+    .csignup-cont .right {
+        padding: 2em;
+    }
+}

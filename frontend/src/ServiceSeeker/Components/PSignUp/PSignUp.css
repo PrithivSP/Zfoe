@@ -1,0 +1,96 @@
+.psignup {
+    background-image: url('../../../assets/blobScene.svg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.psignup-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 5em; */
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.psignup-cont .left {
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 1.5em;
+}
+
+.psignup-cont .left div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 0.3em;
+}
+
+.psignup-cont .left div input {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.psignup-cont .left div input:hover {
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+}
+
+.psignup-cont .left div input:focus {
+    outline: 0;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+}
+
+.psignup-cont .left button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #eda6f4;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  box-shadow: 5px 5px 0px 0px rgba(255, 235, 58, 1);
+  cursor: pointer;
+}
+
+.psignup-cont .right {
+    
+    padding: 5em;
+}
+
+.psignup-cont .right img {
+    width: 300px;
+}
+
+@media (max-width: 1080px) {
+    .psignup-cont {
+        padding: 1em 1em;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .psignup-cont .left {
+        padding: 0;
+    }
+
+    .psignup-cont .right {
+        padding: 2em;
+    }
+}
